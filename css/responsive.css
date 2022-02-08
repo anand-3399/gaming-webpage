@@ -1,0 +1,80 @@
+@media only screen and (max-width: 1130px){
+    /* Make flex direction as column in navbar
+       make width to fix */
+
+    /* *{
+        width: 100%;
+    } */
+    .navbar{
+        flex-direction: column;
+    }
+
+    .mid{
+        flex-direction: column;
+        transition: all 0.5s ease-out;
+        height: 470px;
+    }
+
+    .rightNav{
+        text-align: center;
+    }
+
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    #search{
+        width: 100%;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .h-nav-resp{
+        height: 72px;
+    }
+
+    .v-class-resp{
+        opacity: 0;
+    }
+
+    .section{
+        flex-direction: column-reverse;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .text-big{
+        text-align: center;
+    }
+    .text-small{
+        text-align: center;
+    }
+
+    .buttons{
+        text-align: center;
+
+    }
+    .contact{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .paras{
+        padding: 0 0;
+    }
+
+    .secondHalf {
+        width: 50%;
+    }
+
+    .header{
+        border: 3px solid purple;
+        border-radius: 9px;
+        margin: 2px auto;
+        padding: 13px 4px;
+        flex-wrap:wrap ;
+    }
+
+}
