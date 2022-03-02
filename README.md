@@ -5,7 +5,7 @@ https://anand-3399.github.io/gaming-webpage/
 
 Above is the link of my webpage. You can visit on any devices as it is a responsive website. It is compatible to all MacOS, WindowsOS, any mobile devices and even Tabs.
 
-I also have made a video of this website. It contains all the things that are in a website.
+I also have made a video of this website. It contains all features that are shown in this website.
 
 https://youtu.be/TDjLrPTWxoI
 
