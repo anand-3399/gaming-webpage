@@ -1,67 +1,70 @@
-@media only screen and (max-width: 1130px){
+@media only screen and (max-width: 1130px) {
     /* Make flex direction as column in navbar
        make width to fix */
 
     /* *{
         width: 100%;
     } */
-    .navbar{
+    .navbar {
         flex-direction: column;
     }
 
-    .mid{
+    .mid {
         flex-direction: column;
         transition: all 0.5s ease-out;
         height: 470px;
     }
 
-    .rightNav{
+    .rightNav {
         text-align: center;
     }
 
-    .box-main{
+    .box-main {
         flex-direction: column-reverse;
         max-width: 100%;
     }
-    #search{
+
+    #search {
         width: 100%;
     }
 
-    .burger{
+    .burger {
         display: block;
     }
 
-    .h-nav-resp{
+    .h-nav-resp {
         height: 72px;
     }
 
-    .v-class-resp{
+    .v-class-resp {
         opacity: 0;
     }
 
-    .section{
+    .section {
         flex-direction: column-reverse;
         padding-top: 5%;
         padding-bottom: 5%;
     }
 
-    .text-big{
-        text-align: center;
-    }
-    .text-small{
+    .text-big {
         text-align: center;
     }
 
-    .buttons{
+    .text-small {
+        text-align: center;
+    }
+
+    .buttons {
         text-align: center;
 
     }
-    .contact{
+
+    .contact {
         margin-top: 5%;
         margin-bottom: 5%;
     }
 
-    .paras{
+    .paras {
         padding: 0 0;
     }
 
@@ -69,12 +72,69 @@
         width: 50%;
     }
 
-    .header{
+    .header {
         border: 3px solid purple;
         border-radius: 9px;
         margin: 2px auto;
         padding: 13px 4px;
-        flex-wrap:wrap ;
+        flex-wrap: wrap;
+    }
+
+    .card__collection .cards {
+        height: 223px;
+        width: 65%;
+    }
+
+    .card__collection {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        max-width: 83%;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .card__collection .cards--three__list {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    .card__collection .cards--three__list {
+        top: 20px;
+        padding-top: 0px;
+    }
+
+    .card__collection .cards--three__rect-2 {
+        width: 79px;
+        height: 25px
+    }
+
+    .card__collection .cards--three__rect-1 p {
+        font-size: 17px;
+        text-align: inherit;
+
+    }
+
+    .card__collection .cards--two p {
+        position: absolute;
+        top: 75%;
+    }
+
+    .card__collection .cards--two__rect {
+        display: none;
+    }
+
+    .card__collection .cards--two p {
+        color: black;
+        font-size: 21px;
+    }
+    .center{
+        flex-direction: column;
+        height: auto;
+    }
+    .property-card {
+        margin: 6% 3%;
     }
 
 }
