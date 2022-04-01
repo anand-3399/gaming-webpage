@@ -93,7 +93,9 @@
         margin: auto;
         flex-direction: column;
     }
-
+    .card__collection .cards--two__tri{
+        top: 5px;
+    }
     .card__collection .cards--three__list {
         flex-direction: column;
         display: flex;
@@ -122,11 +124,13 @@
     }
 
     .card__collection .cards--two__rect {
-        display: none;
+        /* display: none; */
+        width: 603px;
+        height: 165px;
     }
 
     .card__collection .cards--two p {
-        color: black;
+        color: white;
         font-size: 21px;
     }
     .center{
