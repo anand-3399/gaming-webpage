@@ -991,9 +991,11 @@ p.sit {
     background-color: blue;
     cursor: pointer;
 }
-.cards__list a{
+
+.cards__list a {
     text-decoration: none;
 }
-.cards--three__list a{
+
+.cards--three__list a {
     text-decoration: none;
 }
