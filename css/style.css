@@ -112,14 +112,14 @@ body {
 }
 
 .logo {
-    width: 25%;
+    width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .logo img {
-    width: 33%;
+    width: 40%;
     border: 3px solid white;
     border-radius: 50%;
 }
@@ -990,4 +990,7 @@ p.sit {
 .property-card:hover .property-social-icons:hover {
     background-color: blue;
     cursor: pointer;
+}
+.cards__list a{
+    text-decoration: none;
 }

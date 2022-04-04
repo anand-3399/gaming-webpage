@@ -93,9 +93,11 @@
         margin: auto;
         flex-direction: column;
     }
-    .card__collection .cards--two__tri{
+
+    .card__collection .cards--two__tri {
         top: 5px;
     }
+
     .card__collection .cards--three__list {
         flex-direction: column;
         display: flex;
@@ -103,7 +105,7 @@
     }
 
     .card__collection .cards--three__list {
-        top: 20px;
+        top: 9px;
         padding-top: 0px;
     }
 
@@ -133,12 +135,18 @@
         color: white;
         font-size: 21px;
     }
-    .center{
+
+    .center {
         flex-direction: column;
         height: auto;
     }
+
     .property-card {
         margin: 6% 3%;
     }
 
+    .card__collection .cards--three__circle {
+        top: -27%;
+        left: 56%;
+    }
 }
