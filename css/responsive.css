@@ -8,9 +8,11 @@
     .navbar {
         flex-direction: column;
     }
-    .navbar li{
+
+    .navbar li {
         padding: 21px 0px;
     }
+
     .mid {
         flex-direction: column;
         transition: all 0.5s ease-out;

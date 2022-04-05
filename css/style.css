@@ -113,14 +113,14 @@ body {
 }
 
 .logo {
-    width: 20%;
+    width: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .logo img {
-    width: 40%;
+    width: 70%;
     border: 3px solid white;
     border-radius: 50%;
 }
@@ -439,28 +439,31 @@ p.sit {
 }
 
 .fa-github {
-    padding: 4px;
+    padding: 5px;
 }
 
 .fa-linkedin {
-    padding: 4px;
+    padding: 5px;
 }
 
 .fa-twitter {
-    padding: 4px;
+    padding: 5px;
 }
 
 .fa-facebook {
-    padding: 4px;
+    padding: 5px;
 }
 
 .fa-instagram {
-    padding: 4px;
+    padding: 5px;
 }
 
 .fa-github:hover {
-    color: black;
-    padding: 4px;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    /* border: 2px solid black; */
+    border-radius: 50%;
 }
 
 .fa-linkedin:hover {
@@ -468,30 +471,37 @@ p.sit {
     color: white;
     /* width: 21px;
     height: 20px; */
-    padding: 4px;
+    padding: 5px;
+    border-radius: 10%;
+
+
 }
 
 .fa-twitter:hover {
     /* background-color: #00acee; */
     color: #00acee;
-    padding: 4px
+    padding: 5px
 }
 
 .fa-facebook:hover {
-    background-color: #3b5998;
+    background-color: #1778F2;
     color: white;
     /* width: 21px; */
     /* height: 20px; */
-    padding: 4px;
+    padding: 5px;
+    border-radius: 20%;
     /* margin: 0px; */
 }
 
 .fa-instagram:hover {
     background-color: white;
-    color: red;
+    /* color: red; */
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+
+    border-radius: 30%;
     /* width: 21px; */
     /* height: 20px; */
-    padding: 4px;
+    padding: 5px;
     /* margin: 0px; */
 }
 
