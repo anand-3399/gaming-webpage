@@ -93,6 +93,7 @@ body {
     /* background-color: black; */
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .navbar li {
@@ -432,6 +433,71 @@ p.sit {
     margin-right: 3px;
     margin-bottom: 5px;
 }
+
+.footer-icons a {
+    color: #ffffff;
+}
+
+.fa-github {
+    padding: 4px;
+}
+
+.fa-linkedin {
+    padding: 4px;
+}
+
+.fa-twitter {
+    padding: 4px;
+}
+
+.fa-facebook {
+    padding: 4px;
+}
+
+.fa-instagram {
+    padding: 4px;
+}
+
+.fa-github:hover {
+    color: black;
+    padding: 4px;
+}
+
+.fa-linkedin:hover {
+    background-color: #0077b5;
+    color: white;
+    /* width: 21px;
+    height: 20px; */
+    padding: 4px;
+}
+
+.fa-twitter:hover {
+    /* background-color: #00acee; */
+    color: #00acee;
+    padding: 4px
+}
+
+.fa-facebook:hover {
+    background-color: #3b5998;
+    color: white;
+    /* width: 21px; */
+    /* height: 20px; */
+    padding: 4px;
+    /* margin: 0px; */
+}
+
+.fa-instagram:hover {
+    background-color: white;
+    color: red;
+    /* width: 21px; */
+    /* height: 20px; */
+    padding: 4px;
+    /* margin: 0px; */
+}
+
+/* .footer-icons a:hover{
+    color: black;
+} */
 
 /* Section for About Us */
 @import "https://fonts.googleapis.com/css?family=Do+Hyeon";
@@ -860,12 +926,13 @@ p.sit {
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background: rgba(87, 204, 253, 0.9);
+    /* background: rgba(87, 204, 253, 0.9); */
     text-align: center;
     line-height: 1.7rem;
     font-size: 12px;
     transition: all 0.3s ease;
     transform: translateX(500%);
+    font-size: 17px;
 }
 
 .card__collection .cards--three__list li:nth-child(1) {

@@ -8,11 +8,13 @@
     .navbar {
         flex-direction: column;
     }
-
+    .navbar li{
+        padding: 21px 0px;
+    }
     .mid {
         flex-direction: column;
         transition: all 0.5s ease-out;
-        height: 470px;
+        height: 400px;
     }
 
     .rightNav {
@@ -33,7 +35,7 @@
     }
 
     .h-nav-resp {
-        height: 72px;
+        height: 50px;
     }
 
     .v-class-resp {
