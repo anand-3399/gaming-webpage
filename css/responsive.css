@@ -16,11 +16,12 @@
     .mid {
         flex-direction: column;
         transition: all 0.5s ease-out;
-        height: 400px;
+        height: 450px;
     }
 
     .rightNav {
         text-align: center;
+        width: 100%;
     }
 
     .box-main {
@@ -28,16 +29,16 @@
         max-width: 100%;
     }
 
-    #search {
+    /* #search {
         width: 100%;
-    }
+    } */
 
     .burger {
         display: block;
     }
 
     .h-nav-resp {
-        height: 50px;
+        height: 30px;
     }
 
     .h-nav-resp a {
@@ -46,6 +47,10 @@
 
     .v-class-resp {
         opacity: 0;
+    }
+
+    .btnnavbar {
+        margin: 0% 2%;
     }
 
     .section {

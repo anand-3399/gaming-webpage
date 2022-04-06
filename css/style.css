@@ -96,6 +96,22 @@ body {
     justify-content: center;
 }
 
+.rightNav {
+    width: 25%;
+    text-align: right;
+    padding: 0 23px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#search {
+    padding: 5px;
+    font-size: 13px;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+
 .navbar li {
     /* font-size: 20px; */
     /* display: inline-block; */
@@ -103,6 +119,22 @@ body {
 
     padding: 21px 12px;
     font-size: 21px;
+}
+.btnnavbar{
+    padding: 8px 34px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: none;
+    color:chartreuse;
+    cursor: pointer;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+.btn-sn{
+    padding: 6px 10px;
+    vertical-align: middle;
 }
 
 /* ------------------------------------------------------------ */
@@ -136,7 +168,7 @@ body {
     background-color: white;
     border-radius: 32px;
     cursor: pointer;
-    
+
 }
 
 .btn {
