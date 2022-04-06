@@ -105,11 +105,15 @@ body {
     font-size: 21px;
 }
 
+/* ------------------------------------------------------------ */
+/* Hovering effects */
+
+/* ------------------------------------------------------------ */
 .navbar li a {
     font-weight: bold;
     color: rgb(240, 230, 230);
     text-decoration: none;
-    padding: 5px 5px
+    padding: 5px 5px;
 }
 
 .logo {
@@ -132,7 +136,7 @@ body {
     background-color: white;
     border-radius: 32px;
     cursor: pointer;
-    ;
+    
 }
 
 .btn {

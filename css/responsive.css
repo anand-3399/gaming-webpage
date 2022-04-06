@@ -40,6 +40,10 @@
         height: 50px;
     }
 
+    .h-nav-resp a {
+        pointer-events: none;
+    }
+
     .v-class-resp {
         opacity: 0;
     }
