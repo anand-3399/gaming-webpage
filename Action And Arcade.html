@@ -85,8 +85,14 @@
 
             </ul>
             <div class="rightNav v-class-resp">
-                <input type="text" name="search" id="search">
-                <button class="btnnavbar btn-sn">Search</button>
+                <div class="Search">
+                    <div class="icon">
+                    </div>
+                        <div class="input">
+                            <input type="text" placeholder="Search" id="search">
+                        </div>
+                    <span class="clear" onclick="document.getElementById('search').value = ''"></span>
+                </div>
             </div>
             <div class="burger">
                 <div class="line"></div>
@@ -551,6 +557,7 @@
         <br><br>
     </header>
     <script src="js/resp.js"></script>
+    <script src="js/scripting.js"></script>
 
 </body>
 

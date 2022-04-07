@@ -99,17 +99,118 @@ body {
 .rightNav {
     width: 25%;
     text-align: right;
-    padding: 0 23px;
+    /* padding: 0 23px; */
     align-items: center;
     display: flex;
     justify-content: center;
 }
 
-#search {
+/* #search {
     padding: 5px;
     font-size: 13px;
     border: 2px solid gray;
     border-radius: 9px;
+} */
+
+.Search {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 60px;
+    transition: 0.5s;
+    box-shadow: 0 0 0 5px rgb(24, 23, 25);
+    overflow: hidden;
+}
+
+.Search .icon {
+    position: absolute;
+    top: 0px;
+    Left: 0px;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    ;
+}
+
+.Search.active {
+    width: 100%;
+}
+
+.Search .icon::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 3px solid #287dfc;
+    border-radius: 50%;
+    transform: translate(-4px, -4px);
+}
+
+.Search .icon::after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 12px;
+    background: #287dfc;
+    transform: translate(6px, 6px) rotate(315deg);
+}
+
+.Search .input {
+    position: relative;
+    width: 60%;
+    height: 100%;
+    Left: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Search .input input {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.clear {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    right: 15px;
+    /* background: #ff0; */
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clear::before {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 15px;
+    background: #999;
+    transform: rotate(45deg);
+}
+
+.clear::after {
+    position: absolute;
+    content: '';
+    background: #999;
+    width: 1px;
+    height: 15px;
+    transform: rotate(315deg);
 }
 
 .navbar li {
@@ -120,19 +221,21 @@ body {
     padding: 21px 12px;
     font-size: 21px;
 }
-.btnnavbar{
+
+.btnnavbar {
     padding: 8px 34px;
     margin: 7px 3px;
     border: 2px solid white;
     border-radius: 10px;
     background: none;
-    color:chartreuse;
+    color: chartreuse;
     cursor: pointer;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
 }
-.btn-sn{
+
+.btn-sn {
     padding: 6px 10px;
     vertical-align: middle;
 }
