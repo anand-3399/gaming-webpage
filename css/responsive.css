@@ -59,6 +59,15 @@
         padding-bottom: 5%;
     }
 
+    .Search .input {
+	position: relative;
+	width: 50%;
+	height: 100%;
+	Left: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    }
     .text-big {
         text-align: center;
     }
